@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 """
-0-read_file.py module
+1-write_file module
 """
 
 def read_file(filename=""):
-    # Open the file in read-only mode with UTF-8 encoding
+    """
+    read_file - reads a text file (UTF8) and prints it to stdout.
+    Args:
+        filename: name of the file to be read (default: "")
+    Returns: None
+    """
     with open(filename, 'r', encoding='utf-8') as file:
-        # Iterate over each line in the file
         for line in file:
-            # Print each line to stdout without adding an additional newline character
             print(line, end='')
