@@ -5,7 +5,6 @@ matrix and div args
 The 2-matrix_divided mod supplies one func, matrix_divided(matrix, div).
 """
 
-
 def matrix_divided(matrix, div):
     """
     Divides all elements in the matrix by div
