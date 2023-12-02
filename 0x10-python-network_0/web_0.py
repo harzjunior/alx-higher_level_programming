@@ -8,7 +8,8 @@ app = Flask(__name__)
 def index():
     """ Root
     """
-    return "my index page is so cool! Mainly because it's in Python"
+    return "Direct access"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5050)
+    
